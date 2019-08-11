@@ -1,0 +1,992 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+  background-color: #ddd;
+}
+
+.top{
+    background-image: url(../img/dow1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: #366176;
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+
+nav h1 {
+    font-family: 'Raleway', serif;
+    font-weight: bold;
+    color: #9adb48;
+    font-size: 45px;
+    line-height:55px ;
+    float: left;
+    padding: 0px 50px 0px 20px;
+}
+
+nav ul {
+    float: left;
+    padding-left: 25px;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding: 22px 14px ;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color:#60aebf;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px;
+    border-radius: 0px 0px 4px 4px ;
+
+}
+
+
+nav ul li:hover ul {
+    display: block;
+
+
+}
+
+nav ul li ul {
+    width: 240px;
+    border-radius: 4px;
+}
+
+nav ul li ul a {
+    padding: 8px 14px ;
+}
+
+nav ul li ul a:hover {
+    color: #0a8acb;
+}
+
+.cons {
+  padding: 55px 5px;
+}
+
+/*qoutation form*/
+#qoute_form{
+  margin-top: 5px;
+  padding-left: 5px;
+  margin-left: 25px;
+}
+
+#qoute_form .qoute input, aside#sidebar .qoute textarea{
+	width: 90%;
+	padding: 5px;
+
+}
+
+.button_1{
+	height: 38px;
+	background-color: #60aebf;
+  border: 0;
+  margin-top: 15px;
+  padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+  color: #9adb48;
+  width: 90%;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+}
+
+.dark{
+	padding: 15px;
+	background-color: #366176;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.dark h3{
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+}
+.qoute input {
+  padding: 0px 0px 5px 0px;
+}
+
+.qoute p:nth-child(1) {
+  font-family: Roboto, sans-serif;
+  padding :10px 0px 0px 5px;
+}
+
+.qoute p:nth-child(2) {
+  font-family: Roboto, sans-serif;
+  padding :5px 0px 0px 10px;
+}
+
+.qoute p:nth-child(3) {
+  font-family: Roboto, sans-serif;
+  padding :5px 0px 0px 10px;
+}
+
+.dividing_border{
+  border-top: 3px solid #b3bf5a;
+  margin :50px;
+}
+
+.intro {
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  margin-left: 5px;
+  margin-right: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:#0A8ACB;
+}
+
+.intro h1 {
+  font-family: 'Raleway', serif;
+  padding: 10px 25px;
+  text-align: center;
+  margin-bottom: 25px;
+  color:#0A8ACB;
+}
+
+.intro p {
+  text-align: center;
+  font-family: 'Roboto', serif;
+  margin-top: 30px;
+  font-size: 18px;
+  padding:0px 20px;
+
+}
+
+/*under showcase wrapper*/
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 5px;
+}
+
+
+/*articles under intro wrapper*/
+.wrapper_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5em;
+  margin: 20px 25px;
+}
+
+.wrapper_2 .box {
+  background-color: #f3f3f3;
+}
+
+.wrapper_2 .box img{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.wrapper_2 .box p {
+  font-family: 'Roboto', serif;
+  text-align: center;
+  padding: 15px;
+  background-color: #366176;
+  color: #fff;
+  margin: 10px;
+  text-decoration: none;
+}
+.wrapper_2 .box a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Raleway', serif;
+}
+
+.wrapper_2 .box a:hover {
+  color: #9adb48;
+}
+
+/*statistics wrapper under topics main */
+
+
+
+.wrapper_3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #366176;
+  margin:35px 25px;
+  padding-bottom: 80px;
+  padding-top: 10px;
+}
+
+.wrapper_3 h1{
+  font-family: 'Raleway', serif;
+    font-weight: bold;
+    color: #9adb48;
+    font-size: 25px;
+    line-height:55px;
+    text-align: center;
+    padding: 0px 50px 0px 20px;
+}
+
+.wrapper_3 p{
+  text-align: center;
+  color: #fff;
+  font-family: 'Raleway', serif;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.stats_topic {
+  color: #366176;
+  font-family: 'Raleway', serif;
+}
+
+/*services main wrapper*/
+.services_main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin: 75px 25px;
+}
+
+.services_main img {
+  width: 640px;
+  height: auto;
+}
+
+.services_main .text h1 {
+  font-family: 'Raleway', serif;
+  font-weight: bold;
+  color: #366176;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+.services_main .text p {
+  font-family: 'Roboto', serif;
+  color: #366176;
+  margin-top: 30px;
+  padding:20px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 2em;
+}
+.services_main .text {
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+}
+
+.services_main .text button{
+  padding: 10px 30px;
+  background-color: #366176;
+  color: #9adb48;
+  border-radius: 30px;
+  margin-left: 220px;
+  font-family: 'Raleway', serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+/*IRRIGATION SERVICES*/
+.slideshow {
+  margin: 10px 25px;
+}
+
+.services_intro {
+  font-family: 'Raleway', serif;
+  padding: 50px 0px;
+  text-align: center;
+  margin-bottom: 50px;
+  color:#0A8ACB;
+  background-image: url(../img/dow2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.services_intro h1{
+  font-size: 80px;
+}
+
+
+
+.services_listing .box {
+
+  margin: 25px 25px;
+  border-radius: 15px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+
+}
+
+
+.services_listing .box p {
+  font-family: 'Roboto', serif;
+  color: #366176;
+  margin-top: 30px;
+  padding:20px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.services_listing .box h1 {
+  font-family: 'Raleway', serif;
+  font-weight: bold;
+  color: #366176;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+.services_listing .box .card {
+  background-color: #f3f3f3;
+}
+
+.services_listing .box .card img {
+  align-self: center;
+  margin: 15px 50px 35px 25px;
+  width:500px;
+  height: auto;
+  padding-left: 145px;
+}
+
+.intro .btn button{
+  padding: 18px 45px;
+  background-color: #366176;
+  color: #9adb48;
+  border-radius: 30px;
+  margin-left: 350px;
+  margin-top: 25px;
+  font-family: 'Raleway', serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+/*PLUMBING*/
+.services_intro_plumbing{
+  font-family: 'Raleway', serif;
+  padding: 50px 0px;
+  text-align: center;
+  margin-bottom: 50px;
+  color:#0A8ACB;
+  background-image: url(../img/Drainlaying-Services-Hawera-Taranaki.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.services_intro_plumbing h1{
+  font-size: 80px;
+}
+
+/*BOREHOLE*/
+.services_intro_borehole{
+  font-family: 'Raleway', serif;
+  padding: 50px 0px;
+  text-align: center;
+  margin-bottom: 50px;
+  color:#0A8ACB;
+  background-image: url(../img/watertec-40-water-well-drilling-rig-3.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.services_intro_borehole h1{
+  font-size: 80px;
+}
+
+/*ABOUT*/
+.services_intro_about{
+  font-family: 'Raleway', serif;
+  padding: 50px 0px;
+  text-align: center;
+  margin-bottom: 50px;
+  color:#0A8ACB;
+  background-image: url(../img/sprinkler.jpg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.services_intro_about h1{
+  font-size: 80px;
+}
+
+.services_listing_about {
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  margin: 10px 25px;
+}
+
+.services_listing_about p {
+  color: #0A8ACB;
+  text-align: center;
+  font-family: 'Raleway', serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 30px 50px;
+  padding: 50px 25px;
+  line-height: 1.8em;
+}
+
+/*CONTACT US*/
+.contact_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px 25px;
+  margin: 25px;
+  grid-gap: 2em;
+
+  background-color: #f3f3f3;
+}
+
+.contact_wrapper p {
+  font-family: 'Raleway', serif;
+  color: #0a8acb;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.contact_wrapper h3 {
+  font-family: 'Raleway', serif;
+  color : #9adb48;
+  padding-top: 125px;
+  padding-bottom: 25px;
+  text-decoration: underline;
+}
+
+.contact_wrapper h1 {
+  font-family: 'Raleway', serif;
+  color : #0A8ACB;
+  padding-top: 15px;
+  text-align: center;
+  padding-right: 45px;
+
+}
+
+.intro_contact {
+
+  font-family: 'Raleway', serif;
+  text-align: center;
+  margin-bottom: 50px;
+  color:#0A8ACB;
+  background-image: url(../img/res_rotor_2.jpg);
+  padding: 75px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro_contact h1{
+  font-size: 80px;
+}
+
+/*BLOGS*/
+.blogs {
+  background-color: #fff;
+  margin: 25px 120px;
+  padding: 15px;
+}
+
+.blogs h1{
+  font-family: 'Raleway', serif;
+  padding: 25px 25px;
+  text-align: center;
+  margin-bottom: 25px;
+  color:#0A8ACB;
+  font-size: 45px
+
+}
+
+.blogs p{
+  text-align: center;
+  font-family: 'Roboto', serif;
+  margin-top: 30px;
+  font-size: 18px;
+  padding:0px 20px;
+  color:#0A8ACB;
+}
+
+.blogs img{
+  padding-left: 150px;
+  justify-content: center;
+}
+
+/*footer styling */
+footer {
+  background-color: #366176;
+  padding:35px 5px;
+
+}
+
+footer p {
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+  text-align: center;
+  color:#fff;
+}
+
+.footer_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20px 35px;
+}
+
+.footer_wrapper ul {
+  list-style: none;
+}
+
+.footer_wrapper li {
+  padding: 5px;
+}
+.footer_wrapper h3 {
+  color: #9adb48;
+  font-family: 'Raleway',serif;
+  font-weight: bolder;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.footer_wrapper p{
+  font-family: 'Raleway', serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0px 5px 5px;
+  text-align: left;
+}
+
+.footer_wrapper ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Raleway',serif;
+  font-weight: bold;
+}
+
+.footer_wrapper ul li a:hover {
+  color: #60aebf;
+  text-transform: uppercase;
+}
+
+
+
+/*@button-colour: #009ED8;
+@button-text: #ffffff;
+@regular-text: #333;
+@button-tint: fadeout(#000, 90%);
+@background: #303036;*/
+
+.footer_buttons {
+	text-rendering: auto;
+	font-size: 17px;
+	overflow: hidden;
+  padding-left: 35px;
+  padding-top: 20px;
+  display: inline;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.button {
+	display: inline-block;
+	font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+	padding: .8em 1.4em;
+	padding-right: 4.7em;
+	background: #009ED8;
+	border: none;
+	color: white;
+	transition: .2s;
+	&:before,
+	&:after {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		padding-top: inherit;
+		padding-bottom: inherit;
+		width: 2.8em;
+		content: "\00a0";
+		font-family: 'FontAwesome', sans-serif;
+		font-size: 1.2em;
+		text-align: center;
+
+		transition: .2s;
+		transform-origin: 50% 60%;
+	}
+	&:before {
+		background: fadeout(#000, 90%);
+	}
+	&:hover {
+		background: darken(#009ED8, 10%);
+	}
+	&:active,
+	&:focus {
+		background: darken(@button-colour, 30%);
+		outline: none;
+	}
+}
+
+.button {
+	min-width: 15em;
+}
+
+.arrow {
+	background: #FE5F55;
+	&:hover {
+		background: darken(#FE5F55, 10%);
+	}
+	&:active,
+	&:focus {
+		background: darken(#FE5F55, 30%);
+	}
+	&:after {
+		content: "\F054";
+	}
+	&:hover:after {
+		-webkit-animation: bounceright .3s alternate ease infinite;
+		animation: bounceright .3s alternate ease infinite;
+	}
+}
+
+.phone {
+	background: #139675;
+	&:hover {
+		background: darken(#139675, 10%);
+	}
+	&:active,
+	&:focus {
+		background: darken(#139675, 20%);
+	}
+	&:after {
+		content: "\F095";
+	}
+	&:hover:after {
+		-webkit-animation: wiggle .05s alternate ease infinite;
+		animation: wiggle .05s alternate ease infinite;
+	}
+}
+
+.email {
+	background: #C673B3;
+	&:hover {
+		background: darken(#C673B3, 10%);
+	}
+	&:active,
+	&:focus {
+		background: darken(#C673B3, 20%);
+	}
+	&:after {
+		content: "\F0E0";
+	}
+	&:hover:after {
+		-webkit-animation: none;
+		-webkit-transform: skew(-20deg);
+		animation: none;
+		transform: skew(-20deg);
+		text-indent: .1em;
+	}
+}
+
+.search {
+	&:after {
+		content:"\f002";
+	}
+	&:hover:after {
+		-webkit-animation: none;
+		-webkit-transform: scale(1.4);
+		animation: none;
+		transform: scale(1.4);
+	}
+}
+
+
+@-webkit-keyframes bounceright {
+	from { -webkit-transform: translateX(0); }
+	to   { -webkit-transform: translateX(3px); }
+}
+
+@-webkit-keyframes wiggle {
+	from { -webkit-transform: rotate(0deg); }
+	to   { -webkit-transform: rotate(30deg); }
+}
+
+@keyframes bounceright {
+	from { transform: translateX(0); }
+	to   { transform: translateX(3px); }
+}
+
+@keyframes wiggle {
+	from { transform: rotate(0deg); }
+	to   { transform: rotate(30deg); }
+}
+
+@media(max-width:360px){
+
+  nav {
+    grid-template-columns: 1fr;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+  nav h1{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-left: 80px;
+    margin-bottom:10px;
+    font-weight: bold;
+  }
+  nav ul {
+    padding-left: 35px;
+    margin-bottom: 60px;
+  }
+  nav ul li a{
+    font-size: 14px;
+    padding: 8px 5px;
+  }
+  nav ul li ul {
+    display: none;
+    padding: 3px;
+    width: cover;
+    padding-left: 5px;
+  }
+  nav ul li ul li {
+    display: inline;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  aside {
+    margin-right: 25px;
+  }
+  .intro {
+    margin-left: 25px;
+  }
+  .intro h1{
+    margin-bottom: 10px;
+    padding: 5px 9px;
+    font-size: 18px;
+  }
+  .intro p{
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+
+  .wrapper_2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .wrapper_2 .box img{
+    width: 150px;
+    height: 180px;
+    margin-right: 8px;
+  }
+  .wrapper_2 .box p{
+    font-size: 12px;
+    margin: 5px;
+    padding: 7px;
+  }
+
+  .wrapper_3 {
+    grid-template-columns: 1fr 1fr;
+    margin: 15px 10px;
+    padding-bottom: 30px;
+    padding-top: 4px;
+  }
+  .wrapper_3 h1{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 15px 25px 0px 10px;
+  }
+  .stats_topic h1{
+    padding-top: 5px;
+    font-size: 20px;
+  }
+
+  .services_main {
+    grid-template-columns: 1fr;
+    margin: 40px 20px;
+  }
+  .services_main img {
+    width: 320px;
+  }
+  .services_main .text h1 {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .services_main .text p {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 1.2em;
+  }
+  .services_main .text button {
+    padding: 5px 15px;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+
+  /*IRRIGATION SERVICES*/
+  .services_intro h1{
+    font-size: 35px;
+  }
+  .services_listing .box {
+    grid-template-columns: 1fr;
+  }
+  .services_listing .box .card p {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.2em;
+  }
+  .services_listing .box .card h1 {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .services_listing .box .card img {
+    width: 280px;
+    height: auto;
+    padding-left: 10px;
+    margin-right: 25px;
+    margin-left: 10px;
+    justify-content: center;
+    margin-bottom:0px;
+  }
+  .services_listing .box .card {
+    width: 310px;
+  }
+  aside #qoute_form{
+    width: 280px;
+  }
+  .intro {
+    width: 320px;
+  }
+  .intro .btn button {
+    padding: 8px 20px;
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+/*BPLUMBING*/
+  .services_intro_plumbing h1 {
+    font-size: 35px
+  }
+
+/*BOREHOLE*/
+  .services_intro_borehole h1 {
+    font-size: 35px;
+  }
+
+/*ABOUT*/
+  .services_intro_about h1 {
+    font-size: 35px;
+  }
+  .services_listing_about {
+    border-radius: 10px;
+    margin: 5px 15px;
+  }
+  .services_listing_about p {
+    font-size: 16px;
+    margin: 15px 25px;
+    padding: 25px 10px;
+    line-height: 1.3em;
+    text-align: left;
+  }
+
+  /*ABOUT US*/
+  .intro_contact  h1 {
+    font-size: 35px;
+  }
+  .contact_wrapper {
+    grid-template-columns: 1fr;
+    padding: 10px 10px;
+    margin: 10px;
+    grid-gap: 1em;
+  }
+  .contact_wrapper p {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .contact_wrapper h3 {
+    padding-top: 75px;
+    padding-bottom: 10px;
+  }
+  .contact_wrapper h1 {
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 16px;
+  }
+  .contact_wrapper img {
+    width: 320px;
+    height: auto;
+  }
+
+
+  .footer_wrapper{
+    grid-template-columns: 1fr 1fr;
+    margin: 8px 15px;
+    padding-bottom: 35px;
+  }
+  .footer_wrapper h3 {
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 6px;
+    margin-top: 25px;
+  }
+  .footer_wrapper p {
+    font-size: 14px;
+    padding: 5px 0px 3px 3px;
+    margin-top: 30px;
+  }
+  .footer_wrapper ul li a {
+    font-size: 12px;
+  }
+  .footer_wrapper img {
+    width: 25px;
+    height: 25px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+}
