@@ -60,28 +60,29 @@
 
 <div class="wrapper">
     <div>
-        <aside id="qoute_form">
-            <div class="dark">
-            <h3>Get A Qoute</h3>
-            <form class="qoute">
-                <div>
-                    <label><p>Name</p></label><br>
-                    <input type="text" name="name" placeholder="enter your name">
-                </div>
-                <div>
-                    <label><p>Email</p></label><br>
-                    <input type="email" name="email" placeholder="enter your email">
-                </div>
-                <div>
-                    <label><p>Message</p></label><br>
-                    <textarea placeholder="input your message"></textarea>
-                </div>
-                <button class="button_1" type="submit"><h3>SEND</h3></button>
+      <aside id="qoute_form">
+          <div class="dark">
+          <h3>Get A Qoute</h3>
+          <form class="qoute" action="POST" data-netlify="true">
+              <div>
+                  <label><p>Name</p></label><br>
+                  <input type="text" name="name" placeholder="enter your name">
+              </div>
+              <div>
+                  <label><p>Email</p></label><br>
+                  <input type="email" name="email" placeholder="enter your email">
+              </div>
+              <div>
+                  <label><p>Message</p></label><br>
+                  <textarea name="message" placeholder="input your message"></textarea>
+              </div>
+              <div data-netlify-recaptcha="true"></div>
+              <button class="button_1" type="submit"><h3>SEND</h3></button>
 
 
-            </form>
-        </div>
-        </aside>
+          </form>
+      </div>
+      </aside>
     </div>
 
     <div class="intro">
@@ -139,17 +140,7 @@
                 <p>Turf Irrigation &copy 2019</p>
         </div>
     </div>
-<div class="footer_buttons">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
-    <button class="button  search">Search</button>
 
-    <button class="button  arrow">Read more</button>
-
-    <button class="button  email">me@email.com</button>
-
-    <button class="button  phone">tel: 1234 567 890</button>
-</div>
 
 </footer>
 

@@ -9,11 +9,11 @@ body {
 }
 
 .top{
-    background-image: url(../img/dow1.jpg);
+    /*background-image: url(../img/dow1.jpg);*/
     background-size: cover;
     width: 100%;
     height: 450px;
-
+    animation: animate 16s ease-in-out infinite;
 }
 
 nav {
@@ -93,6 +93,19 @@ nav ul li ul a:hover {
 
 .cons {
   padding: 55px 5px;
+  color: #366176;
+  font-weight: bolder;
+  font-size: 4em;
+  font-family: 'Roboto Slab' , sans-serif;
+  text-align: center;
+}
+
+.cons h2 {
+  margin-top: 120px;
+}
+
+.cons span {
+  color: #9adb48;
 }
 
 /*qoutation form*/
@@ -108,6 +121,14 @@ nav ul li ul a:hover {
 
 }
 
+form textarea {
+  width: 96%;
+  background-color: #ddd;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+}
+
 .button_1{
 	height: 38px;
 	background-color: #60aebf;
@@ -117,7 +138,7 @@ nav ul li ul a:hover {
 	padding-left: 20px;
 	padding-right: 20px;
   color: #9adb48;
-  width: 90%;
+  width: 95%;
   font-family: Raleway, sans-serif;
   font-weight: bold;
 }
@@ -128,6 +149,9 @@ nav ul li ul a:hover {
 	color: #ffffff;
 	margin-top: 10px;
 	margin-bottom: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
 }
 .dark h3{
   font-family: Raleway, sans-serif;
@@ -165,6 +189,9 @@ nav ul li ul a:hover {
   margin-top: 10px;
   margin-bottom: 10px;
   color:#0A8ACB;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
 }
 
 .intro h1 {
@@ -202,11 +229,20 @@ nav ul li ul a:hover {
 
 .wrapper_2 .box {
   background-color: #f3f3f3;
+  border-radius: 6px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .wrapper_2 .box img{
+  border-radius: 5px;
   padding-left: 10px;
   padding-top: 5px;
+  transition: 2s;
+  animation-delay: 2s;
+}
+
+.wrapper_2 .box img:hover {
+  transform: scale(0.90);
 }
 
 .wrapper_2 .box p {
@@ -217,6 +253,7 @@ nav ul li ul a:hover {
   color: #fff;
   margin: 10px;
   text-decoration: none;
+  border-radius: 5px;
 }
 .wrapper_2 .box a{
   text-decoration: none;
@@ -239,6 +276,8 @@ nav ul li ul a:hover {
   margin:35px 25px;
   padding-bottom: 80px;
   padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
 .wrapper_3 h1{
@@ -249,6 +288,8 @@ nav ul li ul a:hover {
     line-height:55px;
     text-align: center;
     padding: 0px 50px 0px 20px;
+
+
 }
 
 .wrapper_3 p{
@@ -275,6 +316,18 @@ nav ul li ul a:hover {
 .services_main img {
   width: 640px;
   height: auto;
+  transition: 1s ease-in-out;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.services_main img:hover {
+  transform: scale(0.90) ;
+}
+
+.services_main .text {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
 .services_main .text h1 {
@@ -340,11 +393,6 @@ nav ul li ul a:hover {
 
   margin: 25px 25px;
   border-radius: 15px;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
-
 }
 
 
@@ -369,6 +417,13 @@ nav ul li ul a:hover {
 }
 .services_listing .box .card {
   background-color: #f3f3f3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+  margin: 15px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
 }
 
 .services_listing .box .card img {
@@ -376,7 +431,7 @@ nav ul li ul a:hover {
   margin: 15px 50px 35px 25px;
   width:500px;
   height: auto;
-  padding-left: 145px;
+
 }
 
 .intro .btn button{
@@ -444,8 +499,9 @@ nav ul li ul a:hover {
 
 .services_listing_about {
   background-color: #f3f3f3;
-  border-radius: 15px;
   margin: 10px 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
 .services_listing_about p {
@@ -468,6 +524,8 @@ nav ul li ul a:hover {
   grid-gap: 2em;
 
   background-color: #f3f3f3;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 
 .contact_wrapper p {
@@ -516,6 +574,8 @@ nav ul li ul a:hover {
   background-color: #fff;
   margin: 25px 120px;
   padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .blogs h1{
@@ -600,158 +660,22 @@ footer p {
 
 
 
-/*@button-colour: #009ED8;
-@button-text: #ffffff;
-@regular-text: #333;
-@button-tint: fadeout(#000, 90%);
-@background: #303036;*/
-
-.footer_buttons {
-	text-rendering: auto;
-	font-size: 17px;
-	overflow: hidden;
-  padding-left: 35px;
-  padding-top: 20px;
-  display: inline;
-}
-
-* {
-	box-sizing: border-box;
-}
-
-.button {
-	display: inline-block;
-	font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
-	-webkit-font-smoothing: antialiased;
-	position: relative;
-	padding: .8em 1.4em;
-	padding-right: 4.7em;
-	background: #009ED8;
-	border: none;
-	color: white;
-	transition: .2s;
-	&:before,
-	&:after {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		right: 0;
-		padding-top: inherit;
-		padding-bottom: inherit;
-		width: 2.8em;
-		content: "\00a0";
-		font-family: 'FontAwesome', sans-serif;
-		font-size: 1.2em;
-		text-align: center;
-
-		transition: .2s;
-		transform-origin: 50% 60%;
-	}
-	&:before {
-		background: fadeout(#000, 90%);
-	}
-	&:hover {
-		background: darken(#009ED8, 10%);
-	}
-	&:active,
-	&:focus {
-		background: darken(@button-colour, 30%);
-		outline: none;
-	}
-}
-
-.button {
-	min-width: 15em;
-}
-
-.arrow {
-	background: #FE5F55;
-	&:hover {
-		background: darken(#FE5F55, 10%);
-	}
-	&:active,
-	&:focus {
-		background: darken(#FE5F55, 30%);
-	}
-	&:after {
-		content: "\F054";
-	}
-	&:hover:after {
-		-webkit-animation: bounceright .3s alternate ease infinite;
-		animation: bounceright .3s alternate ease infinite;
-	}
-}
-
-.phone {
-	background: #139675;
-	&:hover {
-		background: darken(#139675, 10%);
-	}
-	&:active,
-	&:focus {
-		background: darken(#139675, 20%);
-	}
-	&:after {
-		content: "\F095";
-	}
-	&:hover:after {
-		-webkit-animation: wiggle .05s alternate ease infinite;
-		animation: wiggle .05s alternate ease infinite;
-	}
-}
-
-.email {
-	background: #C673B3;
-	&:hover {
-		background: darken(#C673B3, 10%);
-	}
-	&:active,
-	&:focus {
-		background: darken(#C673B3, 20%);
-	}
-	&:after {
-		content: "\F0E0";
-	}
-	&:hover:after {
-		-webkit-animation: none;
-		-webkit-transform: skew(-20deg);
-		animation: none;
-		transform: skew(-20deg);
-		text-indent: .1em;
-	}
-}
-
-.search {
-	&:after {
-		content:"\f002";
-	}
-	&:hover:after {
-		-webkit-animation: none;
-		-webkit-transform: scale(1.4);
-		animation: none;
-		transform: scale(1.4);
-	}
-}
 
 
-@-webkit-keyframes bounceright {
-	from { -webkit-transform: translateX(0); }
-	to   { -webkit-transform: translateX(3px); }
-}
-
-@-webkit-keyframes wiggle {
-	from { -webkit-transform: rotate(0deg); }
-	to   { -webkit-transform: rotate(30deg); }
-}
-
-@keyframes bounceright {
-	from { transform: translateX(0); }
-	to   { transform: translateX(3px); }
-}
-
-@keyframes wiggle {
-	from { transform: rotate(0deg); }
-	to   { transform: rotate(30deg); }
+/*FRONT SLIDE KEYFRAME*/
+@keyframes animate {
+  0%,100% {
+    background-image: url(../img/dow1.jpg);
+  }
+  25% {
+    background-image: url(../img/dow.jpg)
+  }
+  50% {
+    background-image: url(../img/tci-irrigation-2000x800.jpg)
+  }
+  75% {
+    background-image: url(../img/sprinklerirrigationsystems_6.jpg)
+  }
 }
 
 @media(max-width:360px){
