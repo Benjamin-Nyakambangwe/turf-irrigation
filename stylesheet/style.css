@@ -28,7 +28,7 @@ nav {
 }
 
 nav h1 {
-    font-family: 'Raleway', serif;
+    font-family: 'Raleway', 'Roboto slab', serif;
     font-weight: bold;
     color: #9adb48;
     font-size: 45px;
@@ -102,6 +102,7 @@ nav ul li ul a:hover {
 
 .cons h2 {
   margin-top: 120px;
+  font-size: 1em;
 }
 
 .cons span {
@@ -195,7 +196,7 @@ form textarea {
 }
 
 .intro h1 {
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   padding: 10px 25px;
   text-align: center;
   margin-bottom: 25px;
@@ -258,7 +259,7 @@ form textarea {
 .wrapper_2 .box a{
   text-decoration: none;
   color: #fff;
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
 }
 
 .wrapper_2 .box a:hover {
@@ -281,7 +282,7 @@ form textarea {
 }
 
 .wrapper_3 h1{
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
     font-weight: bold;
     color: #9adb48;
     font-size: 25px;
@@ -295,14 +296,14 @@ form textarea {
 .wrapper_3 p{
   text-align: center;
   color: #fff;
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   font-weight: bold;
   padding-top: 10px;
 }
 
 .stats_topic {
   color: #366176;
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
 }
 
 /*services main wrapper*/
@@ -331,7 +332,7 @@ form textarea {
 }
 
 .services_main .text h1 {
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   font-weight: bold;
   color: #366176;
   padding: 20px;
@@ -360,7 +361,7 @@ form textarea {
   color: #9adb48;
   border-radius: 30px;
   margin-left: 220px;
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   font-weight: bold;
   font-size: 18px;
 }
@@ -372,7 +373,7 @@ form textarea {
 }
 
 .services_intro {
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   padding: 50px 0px;
   text-align: center;
   margin-bottom: 50px;
@@ -407,7 +408,7 @@ form textarea {
 }
 
 .services_listing .box h1 {
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   font-weight: bold;
   color: #366176;
   padding: 20px;
@@ -441,14 +442,14 @@ form textarea {
   border-radius: 30px;
   margin-left: 350px;
   margin-top: 25px;
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   font-weight: bolder;
   font-size: 20px;
 }
 
 /*PLUMBING*/
 .services_intro_plumbing{
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   padding: 50px 0px;
   text-align: center;
   margin-bottom: 50px;
@@ -465,7 +466,7 @@ form textarea {
 
 /*BOREHOLE*/
 .services_intro_borehole{
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   padding: 50px 0px;
   text-align: center;
   margin-bottom: 50px;
@@ -482,7 +483,7 @@ form textarea {
 
 /*ABOUT*/
 .services_intro_about{
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   padding: 50px 0px;
   text-align: center;
   margin-bottom: 50px;
@@ -507,7 +508,7 @@ form textarea {
 .services_listing_about p {
   color: #0A8ACB;
   text-align: center;
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   font-size: 22px;
   font-weight: bold;
   margin: 30px 50px;
@@ -529,14 +530,14 @@ form textarea {
 }
 
 .contact_wrapper p {
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   color: #0a8acb;
   font-size: 16px;
   padding: 10px;
 }
 
 .contact_wrapper h3 {
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   color : #9adb48;
   padding-top: 125px;
   padding-bottom: 25px;
@@ -544,7 +545,7 @@ form textarea {
 }
 
 .contact_wrapper h1 {
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   color : #0A8ACB;
   padding-top: 15px;
   text-align: center;
@@ -554,7 +555,7 @@ form textarea {
 
 .intro_contact {
 
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   text-align: center;
   margin-bottom: 50px;
   color:#0A8ACB;
@@ -579,7 +580,7 @@ form textarea {
 }
 
 .blogs h1{
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   padding: 25px 25px;
   text-align: center;
   margin-bottom: 25px;
@@ -631,14 +632,14 @@ footer p {
 }
 .footer_wrapper h3 {
   color: #9adb48;
-  font-family: 'Raleway',serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   font-weight: bolder;
   font-size: 18px;
   padding-bottom: 10px;
 }
 
 .footer_wrapper p{
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   font-size: 18px;
   font-weight: bold;
   padding: 10px 0px 5px 5px;
@@ -649,7 +650,7 @@ footer p {
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  font-family: 'Raleway',serif;
+  font-family: 'Raleway', 'Roboto slab', serif;
   font-weight: bold;
 }
 
