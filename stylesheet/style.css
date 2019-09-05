@@ -122,6 +122,10 @@ nav ul li ul a:hover {
 
 }
 
+form .recaptcha {
+  margin-top: 6px;
+}
+
 form textarea {
   width: 96%;
   background-color: #ddd;
@@ -155,7 +159,7 @@ form textarea {
 
 }
 .dark h3{
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
 .qoute input {

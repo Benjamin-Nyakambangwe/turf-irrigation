@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Turf Irrigation | Welcome</title>
     <link rel="stylesheet" href="./stylesheet/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Poppins|Bitter|Gabriela|Libre+Baskerville" rel="stylesheet">
 
@@ -58,7 +59,7 @@
                     <label><p>Message</p></label><br>
                     <textarea name="message" placeholder="input your message"></textarea>
                 </div>
-                <div data-netlify-recaptcha="true"></div>
+                <div data-netlify-recaptcha="true" class="recaptcha"></div>
                 <button class="button_1" type="submit"><h3>SEND</h3></button>
 
 
@@ -76,20 +77,20 @@
 
 
 <!--articles -->
-<div class="wrapper_2">
-    <div class="box">
+<div class="wrapper_2" >
+    <div class="box" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500">
         <img src="./img/beauty_shot.jpg" alt="" width="300px" height="350px">
         <p><a href="article1.html">Below Ground Center Pivot Guidance Solution</a></p>
     </div>
-    <div class="box">
+    <div class="box" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
         <img src="./img/valleyscheduling.png" alt="" width="300px" height="350px">
         <p><a href="article3.html">Reduce Risk and Maximize Yields with Irrigation Scheduling</a></p>
     </div>
-    <div class="box">
+    <div class="box" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
         <img src="./img/1-min.jpg" alt="" width="300px" height="350px">
         <p><a href="article4.html">Waste versus re-circulated drains........</a></p>
     </div>
-    <div class="box">
+    <div class="box" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">
         <img src="./img/water-well-drill-rig-500x500.jpg" alt="" width="300px" height="350px">
         <p><a href="article2.html">Boreholes and trees – why drilling supervision matter</a></p>
     </div>
@@ -126,7 +127,7 @@
 <div class="dividing_border"></div>
 
 
-<div class="services_main"><!--irrigation-->
+<div class="services_main" data-aos="fade-right"><!--irrigation-->
         <div>
             <img src="./img/home_cotton_drip-1024x683.jpg" alt="">
         </div>
@@ -140,7 +141,7 @@
 
 
 
-<div class="services_main"><!--drain laying-->
+<div class="services_main" data-aos="fade-left"><!--drain laying-->
 
     <div class="text">
         <h1>DRAIN LAYING</h1>
@@ -153,7 +154,7 @@
 
 </div>
 
-<div class="services_main"><!--borehole installation-->
+<div class="services_main" data-aos="fade-right"><!--borehole installation-->
 
     <div>
         <img src="./img/watertec-40-water-well-drilling-rig-2-2.jpg" alt="">
@@ -206,5 +207,15 @@
 
 
 </footer>
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init({
+     offset: 250,
+     duration:1000
+   });
+ </script>
 </body>
 </html>
