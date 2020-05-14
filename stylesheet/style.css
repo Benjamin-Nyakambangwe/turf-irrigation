@@ -1,94 +1,89 @@
 * {
-    margin: 0;
-    padding: 0;
-
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: #ddd;
 }
 
-.top{
-    /*background-image: url(../img/dow1.jpg);*/
-    background-size: cover;
-    width: 100%;
-    height: 450px;
-    animation: animate 16s ease-in-out infinite;
+.top {
+  /*background-image: url(../img/dow1.jpg);*/
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  animation: animate 16s ease-in-out infinite;
 }
 
 nav {
-    width: 100%;
-    height: 60px;
-    background-color: #366176;
-    position: sticky;
-    top: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 10px;
+  width: 100%;
+  height: 60px;
+  background-color: #366176;
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 10px;
 }
 
 nav h1 {
-    font-family: 'Raleway', 'Roboto slab', serif;
-    font-weight: bold;
-    color: #9adb48;
-    font-size: 45px;
-    line-height:55px ;
-    float: left;
-    padding: 0px 50px 0px 20px;
+  font-family: 'Raleway', 'Roboto slab', serif;
+  font-weight: bold;
+  color: #9adb48;
+  font-size: 45px;
+  line-height: 55px;
+  float: left;
+  padding: 0px 50px 0px 20px;
 }
 
 nav ul {
-    float: left;
-    padding-left: 25px;
+  float: left;
+  padding-left: 25px;
 }
 
 nav ul li {
-    float: left;
-    list-style: none;
-    position: relative;
+  float: left;
+  list-style: none;
+  position: relative;
 }
 
 nav ul li a {
-    display: block;
-    font-weight: 200px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
-    font-size: 18px;
-    padding: 22px 14px ;
-    text-decoration: none;
+  display: block;
+  font-weight: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding: 22px 14px;
+  text-decoration: none;
 }
 
 nav ul li a:hover {
-    color:#60aebf;
+  color: #60aebf;
 }
 
 nav ul li ul {
-    display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 6px;
-    border-radius: 0px 0px 4px 4px ;
-
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 6px;
+  border-radius: 0px 0px 4px 4px;
 }
-
 
 nav ul li:hover ul {
-    display: block;
-
-
+  display: block;
 }
 
 nav ul li ul {
-    width: 240px;
-    border-radius: 4px;
+  width: 240px;
+  border-radius: 4px;
 }
 
 nav ul li ul a {
-    padding: 8px 14px ;
+  padding: 8px 14px;
 }
 
 nav ul li ul a:hover {
-    color: #0a8acb;
+  color: #0a8acb;
 }
 
 .cons {
@@ -96,7 +91,7 @@ nav ul li ul a:hover {
   color: #366176;
   font-weight: bolder;
   font-size: 4em;
-  font-family: 'Roboto Slab' , sans-serif;
+  font-family: 'Roboto Slab', sans-serif;
   text-align: center;
 }
 
@@ -110,16 +105,16 @@ nav ul li ul a:hover {
 }
 
 /*qoutation form*/
-#qoute_form{
+#qoute_form {
   margin-top: 5px;
   padding-left: 5px;
   margin-left: 25px;
 }
 
-#qoute_form .qoute input, aside#sidebar .qoute textarea{
-	width: 90%;
-	padding: 5px;
-
+#qoute_form .qoute input,
+aside#sidebar .qoute textarea {
+  width: 90%;
+  padding: 5px;
 }
 
 form .recaptcha {
@@ -134,31 +129,30 @@ form textarea {
   font-family: 'Roboto', sans-serif;
 }
 
-.button_1{
-	height: 38px;
-	background-color: #60aebf;
+.button_1 {
+  height: 38px;
+  background-color: #60aebf;
   border: 0;
   margin-top: 15px;
   padding-top: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #9adb48;
   width: 95%;
   font-family: Raleway, sans-serif;
   font-weight: bold;
 }
 
-.dark{
-	padding: 15px;
-	background-color: #366176;
-	color: #ffffff;
-	margin-top: 10px;
-	margin-bottom: 10px;
+.dark {
+  padding: 15px;
+  background-color: #366176;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-
 }
-.dark h3{
+.dark h3 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
@@ -168,22 +162,22 @@ form textarea {
 
 .qoute p:nth-child(1) {
   font-family: Roboto, sans-serif;
-  padding :10px 0px 0px 5px;
+  padding: 10px 0px 0px 5px;
 }
 
 .qoute p:nth-child(2) {
   font-family: Roboto, sans-serif;
-  padding :5px 0px 0px 10px;
+  padding: 5px 0px 0px 10px;
 }
 
 .qoute p:nth-child(3) {
   font-family: Roboto, sans-serif;
-  padding :5px 0px 0px 10px;
+  padding: 5px 0px 0px 10px;
 }
 
-.dividing_border{
+.dividing_border {
   border-top: 3px solid #b3bf5a;
-  margin :50px;
+  margin: 50px;
 }
 
 .intro {
@@ -193,10 +187,9 @@ form textarea {
   margin-right: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
-  color:#0A8ACB;
+  color: #0a8acb;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-
 }
 
 .intro h1 {
@@ -204,7 +197,7 @@ form textarea {
   padding: 10px 25px;
   text-align: center;
   margin-bottom: 25px;
-  color:#0A8ACB;
+  color: #0a8acb;
 }
 
 .intro p {
@@ -212,8 +205,7 @@ form textarea {
   font-family: 'Roboto', serif;
   margin-top: 30px;
   font-size: 18px;
-  padding:0px 20px;
-
+  padding: 0px 20px;
 }
 
 /*under showcase wrapper*/
@@ -222,7 +214,6 @@ form textarea {
   grid-template-columns: 1fr 2fr;
   grid-gap: 5px;
 }
-
 
 /*articles under intro wrapper*/
 .wrapper_2 {
@@ -235,10 +226,10 @@ form textarea {
 .wrapper_2 .box {
   background-color: #f3f3f3;
   border-radius: 6px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
-.wrapper_2 .box img{
+.wrapper_2 .box img {
   border-radius: 5px;
   padding-left: 10px;
   padding-top: 5px;
@@ -247,7 +238,7 @@ form textarea {
 }
 
 .wrapper_2 .box img:hover {
-  transform: scale(0.90);
+  transform: scale(0.9);
 }
 
 .wrapper_2 .box p {
@@ -260,7 +251,7 @@ form textarea {
   text-decoration: none;
   border-radius: 5px;
 }
-.wrapper_2 .box a{
+.wrapper_2 .box a {
   text-decoration: none;
   color: #fff;
   font-family: 'Raleway', 'Roboto slab', serif;
@@ -272,32 +263,28 @@ form textarea {
 
 /*statistics wrapper under topics main */
 
-
-
 .wrapper_3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   background-color: #366176;
-  margin:35px 25px;
+  margin: 35px 25px;
   padding-bottom: 80px;
   padding-top: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
 
-.wrapper_3 h1{
+.wrapper_3 h1 {
   font-family: 'Raleway', 'Roboto slab', serif;
-    font-weight: bold;
-    color: #9adb48;
-    font-size: 25px;
-    line-height:55px;
-    text-align: center;
-    padding: 0px 50px 0px 20px;
-
-
+  font-weight: bold;
+  color: #9adb48;
+  font-size: 25px;
+  line-height: 55px;
+  text-align: center;
+  padding: 0px 50px 0px 20px;
 }
 
-.wrapper_3 p{
+.wrapper_3 p {
   text-align: center;
   color: #fff;
   font-family: 'Raleway', 'Roboto slab', serif;
@@ -327,7 +314,7 @@ form textarea {
 }
 
 .services_main img:hover {
-  transform: scale(0.90) ;
+  transform: scale(0.9);
 }
 
 .services_main .text {
@@ -342,14 +329,13 @@ form textarea {
   padding: 20px;
   margin-bottom: 30px;
   text-align: center;
-
 }
 
 .services_main .text p {
   font-family: 'Roboto', serif;
   color: #366176;
   margin-top: 30px;
-  padding:20px;
+  padding: 20px;
   text-align: center;
   font-size: 20px;
   line-height: 2em;
@@ -359,17 +345,24 @@ form textarea {
   box-sizing: border-box;
 }
 
-.services_main .text button{
+.services_main .text a {
+  text-decoration: none;
   padding: 10px 30px;
   background-color: #366176;
   color: #9adb48;
   border-radius: 30px;
-  margin-left: 220px;
+  margin-left: 250px;
   font-family: 'Raleway', 'Roboto slab', serif;
   font-weight: bold;
   font-size: 18px;
+  margin-top: 35px;
+  outline: none;
 }
 
+.services_main .text a:hover {
+  transform: scale(0.95);
+  cursor: pointer;
+}
 
 /*IRRIGATION SERVICES*/
 .slideshow {
@@ -381,31 +374,26 @@ form textarea {
   padding: 50px 0px;
   text-align: center;
   margin-bottom: 50px;
-  color:#0A8ACB;
+  color: #0a8acb;
   background-image: url(../img/dow2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.services_intro h1{
+.services_intro h1 {
   font-size: 80px;
 }
 
-
-
 .services_listing .box {
-
   margin: 25px 25px;
   border-radius: 15px;
 }
-
 
 .services_listing .box p {
   font-family: 'Roboto', serif;
   color: #366176;
   margin-top: 30px;
-  padding:20px;
+  padding: 20px;
   text-align: center;
   font-size: 20px;
   line-height: 2em;
@@ -428,18 +416,17 @@ form textarea {
   margin: 15px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-
 }
 
 .services_listing .box .card img {
   align-self: center;
   margin: 15px 50px 35px 25px;
-  width:500px;
+  width: 500px;
   height: auto;
-
 }
 
-.intro .btn button{
+.intro .btn a {
+  text-decoration: none;
   padding: 18px 45px;
   background-color: #366176;
   color: #9adb48;
@@ -452,53 +439,50 @@ form textarea {
 }
 
 /*PLUMBING*/
-.services_intro_plumbing{
+.services_intro_plumbing {
   font-family: 'Raleway', 'Roboto slab', serif;
   padding: 50px 0px;
   text-align: center;
   margin-bottom: 50px;
-  color:#0A8ACB;
+  color: #0a8acb;
   background-image: url(../img/Drainlaying-Services-Hawera-Taranaki.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.services_intro_plumbing h1{
+.services_intro_plumbing h1 {
   font-size: 80px;
 }
 
 /*BOREHOLE*/
-.services_intro_borehole{
+.services_intro_borehole {
   font-family: 'Raleway', 'Roboto slab', serif;
   padding: 50px 0px;
   text-align: center;
   margin-bottom: 50px;
-  color:#0A8ACB;
+  color: #0a8acb;
   background-image: url(../img/watertec-40-water-well-drilling-rig-3.jpg);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.services_intro_borehole h1{
+.services_intro_borehole h1 {
   font-size: 80px;
 }
 
 /*ABOUT*/
-.services_intro_about{
+.services_intro_about {
   font-family: 'Raleway', 'Roboto slab', serif;
   padding: 50px 0px;
   text-align: center;
   margin-bottom: 50px;
-  color:#0A8ACB;
+  color: #0a8acb;
   background-image: url(../img/sprinkler.jpg);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.services_intro_about h1{
+.services_intro_about h1 {
   font-size: 80px;
 }
 
@@ -510,7 +494,7 @@ form textarea {
 }
 
 .services_listing_about p {
-  color: #0A8ACB;
+  color: #0a8acb;
   text-align: center;
   font-family: 'Raleway', 'Roboto slab', serif;
   font-size: 22px;
@@ -519,8 +503,6 @@ form textarea {
   padding: 50px 25px;
   line-height: 1.8em;
 }
-
-
 
 /*CONTACT US*/
 .contact_wrapper {
@@ -544,7 +526,7 @@ form textarea {
 
 .contact_wrapper h3 {
   font-family: 'Raleway', 'Roboto slab', serif;
-  color : #9adb48;
+  color: #9adb48;
   padding-top: 125px;
   padding-bottom: 25px;
   text-decoration: underline;
@@ -552,19 +534,17 @@ form textarea {
 
 .contact_wrapper h1 {
   font-family: 'Raleway', 'Roboto slab', serif;
-  color : #0A8ACB;
+  color: #0a8acb;
   padding-top: 15px;
   text-align: center;
   padding-right: 45px;
-
 }
 
 .intro_contact {
-
   font-family: 'Raleway', 'Roboto slab', serif;
   text-align: center;
   margin-bottom: 50px;
-  color:#0A8ACB;
+  color: #0a8acb;
   background-image: url(../img/res_rotor_2.jpg);
   padding: 75px;
   background-position: center bottom;
@@ -572,7 +552,7 @@ form textarea {
   background-size: cover;
 }
 
-.intro_contact h1{
+.intro_contact h1 {
   font-size: 80px;
 }
 
@@ -585,26 +565,25 @@ form textarea {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.25);
 }
 
-.blogs h1{
+.blogs h1 {
   font-family: 'Raleway', 'Roboto slab', serif;
   padding: 25px 25px;
   text-align: center;
   margin-bottom: 25px;
-  color:#0A8ACB;
-  font-size: 45px
-
+  color: #0a8acb;
+  font-size: 45px;
 }
 
-.blogs p{
+.blogs p {
   text-align: center;
   font-family: 'Roboto', serif;
   margin-top: 30px;
   font-size: 18px;
-  padding:0px 20px;
-  color:#0A8ACB;
+  padding: 0px 20px;
+  color: #0a8acb;
 }
 
-.blogs img{
+.blogs img {
   padding-left: 150px;
   justify-content: center;
 }
@@ -612,15 +591,14 @@ form textarea {
 /*footer styling */
 footer {
   background-color: #366176;
-  padding:35px 5px;
-
+  padding: 35px 5px;
 }
 
 footer p {
   font-family: 'Roboto', serif;
   font-size: 18px;
   text-align: center;
-  color:#fff;
+  color: #fff;
 }
 
 .footer_wrapper {
@@ -644,7 +622,7 @@ footer p {
   padding-bottom: 10px;
 }
 
-.footer_wrapper p{
+.footer_wrapper p {
   font-family: 'Raleway', 'Roboto slab', serif;
   font-size: 18px;
   font-weight: bold;
@@ -665,46 +643,50 @@ footer p {
   text-transform: uppercase;
 }
 
+.footer_wrapper .social-links a {
+  transition: ease-in-out;
+}
 
-
-
+.footer_wrapper .social-links a:hover {
+  transform: scale(0.95);
+}
 
 /*FRONT SLIDE KEYFRAME*/
 @keyframes animate {
-  0%,100% {
+  0%,
+  100% {
     background-image: url(../img/dow1.jpg);
   }
   25% {
-    background-image: url(../img/dow.jpg)
+    background-image: url(../img/dow.jpg);
   }
   50% {
-    background-image: url(../img/tci-irrigation-2000x800.jpg)
+    background-image: url(../img/tci-irrigation-2000x800.jpg);
   }
   75% {
-    background-image: url(../img/sprinklerirrigationsystems_6.jpg)
+    background-image: url(../img/sprinklerirrigationsystems_6.jpg);
   }
 }
 
-@media(max-width:360px){
-
+@media (max-width: 360px) {
   nav {
     grid-template-columns: 1fr;
     padding-top: 0;
     padding-bottom: 20px;
   }
-  nav h1{
+  nav h1 {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
     padding-left: 110px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     font-weight: bold;
   }
   nav ul {
     padding-left: 35px;
     margin-bottom: 60px;
   }
-  nav ul li a{
+  nav ul li a {
     font-size: 14px;
     padding: 8px 5px;
   }
@@ -733,12 +715,12 @@ footer p {
   .intro {
     margin-left: 25px;
   }
-  .intro h1{
+  .intro h1 {
     margin-bottom: 10px;
     padding: 5px 9px;
     font-size: 18px;
   }
-  .intro p{
+  .intro p {
     margin-top: 15px;
     font-size: 14px;
     padding: 0px 10px;
@@ -748,12 +730,12 @@ footer p {
     grid-template-columns: 1fr 1fr;
     margin-left: 7px;
   }
-  .wrapper_2 .box img{
+  .wrapper_2 .box img {
     width: 150px;
     height: 180px;
     margin-right: 8px;
   }
-  .wrapper_2 .box p{
+  .wrapper_2 .box p {
     font-size: 12px;
     margin: 5px;
     padding: 7px;
@@ -765,17 +747,15 @@ footer p {
     padding-bottom: 30px;
     padding-top: 4px;
   }
-  .wrapper_3 h1{
+  .wrapper_3 h1 {
     font-size: 18px;
     line-height: 30px;
     padding: 15px 25px 0px 10px;
   }
-  .stats_topic h1{
+  .stats_topic h1 {
     padding-top: 5px;
     font-size: 20px;
   }
-
-
 
   .services_main {
     grid-template-columns: 1fr;
@@ -803,7 +783,7 @@ footer p {
   }
 
   /*IRRIGATION SERVICES*/
-  .services_intro h1{
+  .services_intro h1 {
     font-size: 35px;
   }
   .services_listing .box {
@@ -835,12 +815,12 @@ footer p {
     margin-right: 25px;
     margin-left: 10px;
     justify-content: center;
-    margin-bottom:0px;
+    margin-bottom: 0px;
   }
   .services_listing .box .card {
     width: 310px;
   }
-  aside #qoute_form{
+  aside #qoute_form {
     width: 280px;
   }
   .intro {
@@ -855,17 +835,17 @@ footer p {
     font-size: 18px;
   }
 
-/*BPLUMBING*/
+  /*BPLUMBING*/
   .services_intro_plumbing h1 {
-    font-size: 35px
+    font-size: 35px;
   }
 
-/*BOREHOLE*/
+  /*BOREHOLE*/
   .services_intro_borehole h1 {
     font-size: 35px;
   }
 
-/*ABOUT*/
+  /*ABOUT*/
   .services_intro_about h1 {
     font-size: 35px;
   }
@@ -882,15 +862,14 @@ footer p {
   }
 
   /*ABOUT US*/
-  .intro_contact  h1 {
+  .intro_contact h1 {
     font-size: 35px;
   }
   .contact_wrapper {
     grid-template-columns: 1fr;
-    padding: 10px ;
+    padding: 10px;
     margin: 10px;
     margin-right: 12px;
-
   }
   .contact_wrapper p {
     text-align: center;
@@ -898,26 +877,25 @@ footer p {
     overflow: hidden;
     padding: 5px;
     margin-right: 30px;
-    width:300px;
+    width: 300px;
   }
   .contact_wrapper h3 {
     padding-top: 75px;
     padding-bottom: 10px;
-    width:300px;
+    width: 300px;
   }
   .contact_wrapper h1 {
     padding-top: 10px;
     padding-right: 20px;
     font-size: 16px;
-    width:300px;
+    width: 300px;
   }
   .contact_wrapper img {
     width: 320px;
     height: auto;
   }
 
-
-  .footer_wrapper{
+  .footer_wrapper {
     grid-template-columns: 1fr 1fr;
     margin: 8px 15px;
     padding-bottom: 35px;
@@ -945,29 +923,26 @@ footer p {
   }
 }
 
-
-
 /* ##########################320 px #########################*/
-@media(max-width:320px){
-
+@media (max-width: 320px) {
   nav {
     grid-template-columns: 1fr;
     padding-top: 0;
     padding-bottom: 20px;
   }
-  nav h1{
+  nav h1 {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
     padding-left: 90px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     font-weight: bold;
   }
   nav ul {
     padding-left: 35px;
     margin-bottom: 45px;
   }
-  nav ul li a{
+  nav ul li a {
     font-size: 12px;
     padding: 6px 4px;
   }
@@ -989,22 +964,21 @@ footer p {
   .wrapper {
     grid-template-columns: 1fr;
     justify-content: center;
-
   }
   aside {
     margin-left: 20px;
     width: 300px;
   }
   .intro {
-    margin:auto;
+    margin: auto;
     width: 300px;
   }
-  .intro h1{
+  .intro h1 {
     margin-bottom: 10px;
     padding: 5px 9px;
     font-size: 18px;
   }
-  .intro p{
+  .intro p {
     margin-top: 15px;
     font-size: 14px;
     padding: 5px 10px;
@@ -1015,12 +989,12 @@ footer p {
     margin-left: 7px;
     width: 300px;
   }
-  .wrapper_2 .box img{
+  .wrapper_2 .box img {
     width: 130px;
     height: 150px;
     margin-right: 8px;
   }
-  .wrapper_2 .box p{
+  .wrapper_2 .box p {
     font-size: 12px;
     margin: 5px;
     padding: 7px;
@@ -1032,17 +1006,15 @@ footer p {
     padding-bottom: 30px;
     padding-top: 4px;
   }
-  .wrapper_3 h1{
+  .wrapper_3 h1 {
     font-size: 14px;
     line-height: 30px;
     padding: 15px 25px 0px 10px;
   }
-  .stats_topic h1{
+  .stats_topic h1 {
     padding-top: 5px;
     font-size: 20px;
   }
-
-
 
   .services_main {
     grid-template-columns: 1fr;
@@ -1071,7 +1043,7 @@ footer p {
   }
 
   /*IRRIGATION SERVICES*/
-  .services_intro h1{
+  .services_intro h1 {
     font-size: 30px;
   }
   .services_listing .box {
@@ -1079,18 +1051,14 @@ footer p {
     padding-left: 0px;
     margin: 0;
     width: 250px;
-
-
   }
   .services_listing .box .card {
     grid-template-columns: 1fr;
     margin-left: 10px;
     margin-right: 15px;
-
   }
-  .services_listing .box .card img{
+  .services_listing .box .card img {
     width: 30px;
-
   }
 
   .services_listing .box .card p {
@@ -1112,12 +1080,12 @@ footer p {
     margin-right: 25px;
     margin-left: 10px;
     justify-content: center;
-    margin-bottom:0px;
+    margin-bottom: 0px;
   }
   .services_listing .box .card {
     width: 310px;
   }
-  aside #qoute_form{
+  aside #qoute_form {
     width: 280px;
   }
   .intro {
@@ -1132,17 +1100,17 @@ footer p {
     font-size: 18px;
   }
 
-/*BPLUMBING*/
+  /*BPLUMBING*/
   .services_intro_plumbing h1 {
-    font-size: 35px
+    font-size: 35px;
   }
 
-/*BOREHOLE*/
+  /*BOREHOLE*/
   .services_intro_borehole h1 {
     font-size: 35px;
   }
 
-/*ABOUT*/
+  /*ABOUT*/
   .services_intro_about h1 {
     font-size: 35px;
   }
@@ -1159,15 +1127,14 @@ footer p {
   }
 
   /*ABOUT US*/
-  .intro_contact  h1 {
+  .intro_contact h1 {
     font-size: 35px;
   }
   .contact_wrapper {
     grid-template-columns: 1fr;
-    padding: 10px ;
+    padding: 10px;
     margin: 10px;
     margin-right: 12px;
-
   }
   .contact_wrapper p {
     text-align: center;
@@ -1175,26 +1142,25 @@ footer p {
     overflow: hidden;
     padding: 5px;
     margin-right: 30px;
-    width:265px;
+    width: 265px;
   }
   .contact_wrapper h3 {
     padding-top: 75px;
     padding-bottom: 10px;
-    width:300px;
+    width: 300px;
   }
   .contact_wrapper h1 {
     padding-top: 10px;
     padding-right: 20px;
     font-size: 16px;
-    width:300px;
+    width: 300px;
   }
   .contact_wrapper img {
     width: 320px;
     height: auto;
   }
 
-
-  .footer_wrapper{
+  .footer_wrapper {
     grid-template-columns: 1fr 1fr;
     margin: 8px 15px;
     padding-bottom: 35px;
