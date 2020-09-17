@@ -8,12 +8,12 @@ body {
 }
 
 .top {
-  /*background-image: url(../img/dow1.jpg);*/
+  background-image: url(../img/dow1.jpg);
   background-size: cover;
   width: 100%;
   height: 450px;
-  animation: animate 16s ease-in-out infinite;
-}
+  /*animation: animate 30s ease-in-out infinite;
+*/}
 
 nav {
   width: 100%;
@@ -95,6 +95,9 @@ nav ul li ul a:hover {
   text-align: center;
 }
 
+.cons .txt-type > .txt {
+   border-right: 0.2rem solid #366176 ;
+}
 .cons h2 {
   margin-top: 120px;
   font-size: 1em;
@@ -123,7 +126,7 @@ form .recaptcha {
 
 form textarea {
   width: 96%;
-  background-color: #ddd;
+  background-color: #fff;
   border: none;
   border-radius: 3px;
   font-family: 'Roboto', sans-serif;
@@ -653,9 +656,8 @@ footer p {
 }
 
 /*FRONT SLIDE KEYFRAME*/
-@keyframes animate {
-  0%,
-  100% {
+/*@keyframes animate {
+  0% {
     background-image: url(../img/dow1.jpg);
   }
   25% {
@@ -667,7 +669,7 @@ footer p {
   75% {
     background-image: url(../img/sprinklerirrigationsystems_6.jpg);
   }
-}
+}*/
 
 @media (max-width: 360px) {
   nav {
@@ -715,13 +717,17 @@ footer p {
   }
   .intro {
     margin-left: 25px;
-    height: 1000px;
+    height: 230px;
   }
   .intro h1 {
     margin-bottom: 10px;
     padding: 5px 9px;
     font-size: 18px;
   }
+  .intro .intro-para .bottom-para {
+    display: none;
+  }
+
   .intro p {
     margin-top: 15px;
     font-size: 14px;
@@ -837,11 +843,11 @@ footer p {
   aside #qoute_form {
     width: 280px;
   }
-  .intro {
+ /* .intro {
     width: 320px;
     margin: 0 10px;
     height: 230px;
-  }
+  }*/
   .intro .btn a {
     padding: 8px 20px;
     margin-left: 90px;
